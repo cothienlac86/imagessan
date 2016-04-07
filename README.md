@@ -64,6 +64,22 @@ average: 80.84%
 real    5m16.878s
 user    4m20.498s
 sys     0m3.727s
+
+$  time ./tessaccsummary ../imagessan .. s20  tif
+aanagarishreel3skttext: 84.91%
+arialunicodeskttext: 85.97%
+janasanskrittext: 69.46%
+kalimatiskttext: 87.38%
+mangalskttext: 69.69%
+sanskrit2003skttext: 85.38%
+shreeskttext: 76.06%
+surekhskttext: 88.56%
+yogeshskttext: 87.15%
+average: 81.62%
+
+real    5m44.131s
+user    2m57.593s
+sys     0m1.720s
 ```
 
 ## OCR Evaluation - Word Accuracy
@@ -130,4 +146,20 @@ average: 49.23%
 real    6m26.414s
 user    4m29.095s
 sys     0m3.666s
+
+$  time ./tessaccsummary -w ../imagessan .. s20  tif
+aanagarishreel3skttext: 48.84%
+arialunicodeskttext: 55.81%
+janasanskrittext: 39.53%
+kalimatiskttext: 65.12%
+mangalskttext: 31.40%
+sanskrit2003skttext: 51.16%
+shreeskttext: 45.35%
+surekhskttext: 60.47%
+yogeshskttext: 59.30%
+average: 50.78%
+
+real    2m57.609s
+user    2m53.497s
+sys     0m1.645s
 ```
