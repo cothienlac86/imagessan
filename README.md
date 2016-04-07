@@ -8,7 +8,7 @@ Using https://github.com/Shreeshrii/ocr-evaluation-tools
 from https://github.com/tesseract-ocr/tessdata
 
 Hindi traineddata with CUBE
-
+```
 $ time ./tessaccsummary ../imagessan .. hin png
 aanagarishreel3skttext: 79.48%
 arialunicodeskttext: 76.18%
@@ -24,9 +24,11 @@ average: 71.89%
 real    3m59.359s
 user    3m27.654s
 sys     0m28.844s
+```
 
 Sanskrit Traineddata withut CUBE
 
+```
 $ time ./tessaccsummary ../imagessan .. san png
 aanagarishreel3skttext: 49.88%
 arialunicodeskttext: 46.70%
@@ -42,9 +44,11 @@ average: 48.02%
 real    42m7.727s
 user    4m42.928s
 sys     0m2.516s
+```
 
 #### Using Traineddata built with tesstrain.sh
 
+```
 $ time ./tessaccsummary ../imagessan .. s11  png
 aanagarishreel3skttext: 87.62%
 arialunicodeskttext: 84.91%
@@ -60,6 +64,7 @@ average: 80.84%
 real    5m16.878s
 user    4m20.498s
 sys     0m3.727s
+```
 
 ## OCR Evaluation - Word Accuracy
 Using https://github.com/Shreeshrii/ocr-evaluation-tools
@@ -67,6 +72,7 @@ Using https://github.com/Shreeshrii/ocr-evaluation-tools
 #### Using Traineddaata from the Tesseract project 
 from https://github.com/tesseract-ocr/tessdata
 
+```
 $ time ./tessaccsummary -w ../imagessan .. hin  png
 aanagarishreel3skttext: 46.51%
 arialunicodeskttext: 43.02%
@@ -98,8 +104,11 @@ average: 5.04%
 real    11m3.498s
 user    7m58.471s
 sys     0m2.837s
+```
 
-#### Using Traineddata built with automatic training process
+#### Using Traineddata built with tesstrain.sh
+
+```
 
 $ time ./tessaccsummary -w ../imagessan .. s11  png
 aanagarishreel3skttext: 52.33%
@@ -116,4 +125,4 @@ average: 49.23%
 real    6m26.414s
 user    4m29.095s
 sys     0m3.666s
-
+```
