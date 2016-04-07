@@ -26,7 +26,7 @@ user    3m27.654s
 sys     0m28.844s
 ```
 
-Sanskrit Traineddata withut CUBE
+Sanskrit Traineddata without CUBE
 
 ```
 $ time ./tessaccsummary ../imagessan .. san png
@@ -72,6 +72,8 @@ Using https://github.com/Shreeshrii/ocr-evaluation-tools
 #### Using Traineddaata from the Tesseract project 
 from https://github.com/tesseract-ocr/tessdata
 
+Hindi Traineddata with CUBE
+
 ```
 $ time ./tessaccsummary -w ../imagessan .. hin  png
 aanagarishreel3skttext: 46.51%
@@ -88,7 +90,10 @@ average: 36.82%
 real    32m27.702s
 user    6m41.451s
 sys     1m9.053s
+```
 
+Sanskrit Traineddata without CUBE
+```
 $ time ./tessaccsummary -w ../imagessan .. san png
 aanagarishreel3skttext: 5.81%
 arialunicodeskttext: 2.33%
