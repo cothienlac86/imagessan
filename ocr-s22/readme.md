@@ -1,4 +1,4 @@
-OCRed Using Sanskrit traineddata 
+OCRed Using s22 Sanskrit traineddata 
 ===
 created using tesstrain.sh without shape-clustering
 
