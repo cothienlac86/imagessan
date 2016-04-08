@@ -49,37 +49,21 @@ sys     0m2.516s
 #### Using Traineddata built with tesstrain.sh
 
 ```
-$ time ./tessaccsummary ../imagessan .. s11  png
-aanagarishreel3skttext: 87.62%
-arialunicodeskttext: 84.91%
-janasanskrittext: 64.86%
-kalimatiskttext: 90.33%
-mangalskttext: 64.98%
-sanskrit2003skttext: 88.68%
-shreeskttext: 70.87%
-surekhskttext: 89.50%
-yogeshskttext: 85.85%
-average: 80.84%
+$  time ./tessaccsummary  ../imagessan .. s22  tif
+aanagarishreel3skttext: 86.67%
+arialunicodeskttext: 84.67%
+janasanskrittext: 69.93%
+kalimatiskttext: 89.03%
+mangalskttext: 68.40%
+sanskrit2003skttext: 87.50%
+shreeskttext: 80.31%
+surekhskttext: 90.21%
+yogeshskttext: 89.50%
+average: 82.91%
 
-real    5m16.878s
-user    4m20.498s
-sys     0m3.727s
-
-$  time ./tessaccsummary ../imagessan .. s20  tif
-aanagarishreel3skttext: 84.91%
-arialunicodeskttext: 85.97%
-janasanskrittext: 69.46%
-kalimatiskttext: 87.38%
-mangalskttext: 69.69%
-sanskrit2003skttext: 85.38%
-shreeskttext: 76.06%
-surekhskttext: 88.56%
-yogeshskttext: 87.15%
-average: 81.62%
-
-real    5m44.131s
-user    2m57.593s
-sys     0m1.720s
+real    3m49.120s
+user    3m43.497s
+sys     0m2.964s
 ```
 
 ## OCR Evaluation - Word Accuracy
@@ -130,36 +114,19 @@ sys     0m2.837s
 #### Using Traineddata built with tesstrain.sh
 
 ```
-
-$ time ./tessaccsummary -w ../imagessan .. s11  png
-aanagarishreel3skttext: 52.33%
-arialunicodeskttext: 50.00%
-janasanskrittext: 25.58%
-kalimatiskttext: 66.28%
-mangalskttext: 31.40%
-sanskrit2003skttext: 58.14%
-shreeskttext: 38.37%
-surekhskttext: 58.14%
-yogeshskttext: 62.79%
-average: 49.23%
-
-real    6m26.414s
-user    4m29.095s
-sys     0m3.666s
-
-$  time ./tessaccsummary -w ../imagessan .. s20  tif
-aanagarishreel3skttext: 48.84%
-arialunicodeskttext: 55.81%
+$  time ./tessaccsummary -w ../imagessan .. s22  tif
+aanagarishreel3skttext: 54.65%
+arialunicodeskttext: 58.14%
 janasanskrittext: 39.53%
-kalimatiskttext: 65.12%
+kalimatiskttext: 69.77%
 mangalskttext: 31.40%
-sanskrit2003skttext: 51.16%
-shreeskttext: 45.35%
-surekhskttext: 60.47%
-yogeshskttext: 59.30%
-average: 50.78%
+sanskrit2003skttext: 55.81%
+shreeskttext: 53.49%
+surekhskttext: 66.28%
+yogeshskttext: 72.09%
+average: 55.68%
 
-real    2m57.609s
-user    2m53.497s
-sys     0m1.645s
+real    3m46.474s
+user    3m39.431s
+sys     0m2.807s
 ```
