@@ -1,5 +1,8 @@
 OCRed with hin.traineddata 3.02 release
 ===
+Hindi traineddata with CUBE
+
+Character and Word Accuracy Reports
 ```
 $ time ./tessaccsummary ../imagesBIG .. hin tif
 Sahadeva: 82.03%
@@ -10,7 +13,7 @@ real    62m46.753s
 user    52m19.393s
 sys     9m35.295s
 ```
-Hindi traineddata with CUBE
+
 ```
 $ time ./tessaccsummary ../imagessan .. hin png
 aanagarishreel3skttext: 79.48%
