@@ -12,6 +12,15 @@ average: 82.56%
 real    62m46.753s
 user    52m19.393s
 sys     9m35.295s
+
+$ time ./tessaccsummary -w ../imagesBIG .. hin tif
+Sahadeva: 51.09%
+Siddhanta: 53.96%
+average: 52.53%
+
+real    106m15.490s
+user    74m20.393s
+sys     15m56.727s
 ```
 
 ```
