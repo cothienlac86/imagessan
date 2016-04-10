@@ -17,5 +17,10 @@ from https://github.com/tesseract-ocr/tessdata
 
 Mutiple versions using different fonts, training texts, unicharambigs etc.
 
-* added more samples of characters ending in viraam 
+* Removed fancy and old style fonts eg. Aparajita, Santipur OT etc.
+* Removed orthographic syllables frequency list (sanskritweb) from training text
+* Added more samples of characters ending in viraam 
+* Added list of sanskrit ligatures (TITUS) to training text
+* Add optional unicharambigs substitutions (one way only) - ma for bha, gha for dha etc
+
 
