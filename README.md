@@ -18,6 +18,7 @@ from https://github.com/tesseract-ocr/tessdata
 Mutiple versions using different fonts, training texts, unicharambigs,exposure levels etc.
 
 * Removed fancy and old style fonts eg. Aparajita, Santipur OT etc.
+* Remove Italic versions of fonts (Utsaah and Kokila)
 * Used -1, 0, 1 exposure levels - gives thick, normal and thin variants of font
 * Degradation is on by default - lines slope up and down on diff pages
 * Removed orthographic syllables frequency list (sanskritweb) from training text
