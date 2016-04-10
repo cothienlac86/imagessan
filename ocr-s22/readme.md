@@ -47,6 +47,8 @@ DEVANAGARI_FONTS=( \
 
 Shreelipi accuracy is higher for s21
 
+s22 with 600x600 tifs
+
 ```
 $ time ./tessaccsummary  ../imagesslipi .. s22 tif
 p001: 79.78%
@@ -69,4 +71,28 @@ average: 79.02%
 real    8m46.651s
 user    7m42.039s
 sys     0m6.115s
+```
+s22 with 400x400 png files - recognition is better
+```
+$ time ./tessaccsummary  ../imagesslipi .. s22 png
+p001: 82.78%
+p002: 83.09%
+p003: 82.03%
+p004: 83.37%
+p005: 80.67%
+p006: 80.64%
+p007: 82.73%
+p008: 84.23%
+p009: 83.94%
+p010: 86.06%
+p011: 84.06%
+p012: 84.38%
+p013: 80.32%
+p014: 76.70%
+p015: 83.37%
+average: 82.56%
+
+real    6m43.904s
+user    6m25.136s
+sys     0m6.996s
 ```
