@@ -22,3 +22,21 @@ user    6m38.198s
 sys     0m5.124s
 
 ```
+
+```
+$ time ./tessaccsummary  ../imagessan .. s30 png
+aanagarishreel3skttext: 84.43%
+arialunicodeskttext: 88.92%
+janasanskrittext: 68.63%
+kalimatiskttext: 90.45%
+mangalskttext: 68.63%
+sanskrit2003skttext: 87.62%
+shreeskttext: 81.84%
+surekhskttext: 89.74%
+yogeshskttext: 89.74%
+average: 83.33%
+
+real    3m27.144s
+user    3m21.831s
+sys     0m1.905s
+```
