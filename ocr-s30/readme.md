@@ -40,3 +40,13 @@ real    3m27.144s
 user    3m21.831s
 sys     0m1.905s
 ```
+```
+$ time ./tessaccsummary  ../imagesBIG .. s30 tif
+Sahadeva: 92.92%
+Siddhanta: 95.77%
+average: 94.35%
+
+real    21m32.293s
+user    21m16.616s
+sys     0m1.733s
+```
