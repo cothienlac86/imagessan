@@ -1,4 +1,4 @@
-# imagessan
+## imagessan
 Images and Ground Truth files in Sanskrit along with OCR results 
 for OCR evaluation
 
@@ -10,12 +10,13 @@ Using https://github.com/Shreeshrii/ocr-evaluation-tools
 #### Using Traineddaata from the Tesseract project 
 from https://github.com/tesseract-ocr/tessdata
 
-* Hindi traineddata with CUBE
-* Sanskrit Traineddata without CUBE
+* Hindi traineddata with CUBE (ocr-hin)
+* Sanskrit Traineddata without CUBE (ocr-san)
 
 #### Using experimental Traineddata built with tesstrain.sh
 
 Mutiple versions using different fonts, training texts, unicharambigs,exposure levels etc.
+(ocr-s21, ocr-s22, ocr-s30, ocr-s34, ocr-s95 has the accuracy results and reports)
 
 * Remove fonts with incorrect rendering for Sanskrit eg. Sarai, Eczar, Rhodium Libre
 * Removed fancy and old style fonts eg. Aparajita, Santipur OT etc.
