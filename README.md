@@ -1,10 +1,12 @@
 # imagessan
-Images and Ground Truth files in Sanskrit along with OCR results 
+Images and Ground Truth text files in Sanskrit 
 for evaluating Tesseract OCR (3.04) for Sanskrit language (Devanagari script)
+are in the main folder.
+
+Subfolders have additional results of the evaluation.
 
 ## OCR Evaluation Tools for Character & Word Accuracy
 OCR evaluation was done using tools at https://github.com/Shreeshrii/ocr-evaluation-tools
-
 * Changed tessaccsummary to use -psm 6
 
 ### OCR evaluation results using Traineddaata from the Tesseract project 
