@@ -1,33 +1,25 @@
 # imagessan
 Images and Ground Truth files in Sanskrit along with OCR results 
-for Tesseract OCR evaluation fro Sanskrit language (Devanagari script)
+for evaluating Tesseract OCR (3.04) for Sanskrit language (Devanagari script)
 
 ## OCR Evaluation Tools for Character & Word Accuracy
-was done using tools at https://github.com/Shreeshrii/ocr-evaluation-tools
+OCR evaluation was done using tools at https://github.com/Shreeshrii/ocr-evaluation-tools
 
 * Changed tessaccsummary to use -psm 6
 
 ### OCR evaluation results using Traineddaata from the Tesseract project 
-from https://github.com/tesseract-ocr/tessdata
 
-* Hindi traineddata with CUBE (ocr-hin)
-* Sanskrit Traineddata without CUBE (ocr-san)
+* Traineddata taken from https://github.com/tesseract-ocr/tessdata
+* Hindi traineddata with CUBE v 3.02 (results in ocr-hin folder)
+* Sanskrit Traineddata without CUBE v 3.04 (results in ocr-san folder)
 
-### OCR evaluation using experimental Traineddata built with tesstrain.sh
-Mutiple versions using different fonts, training texts, unicharambigs,exposure levels etc.
+### OCR evaluation using experimental Traineddata built by shreeshrii using tesstrain.sh
+Mutiple versions of traineddata were created using different fonts, training texts, unicharambigs,exposure levels etc.
 
-#### Box/Tiff pairs for Sanskrit (Devanagri) along with other required input files
-(trainingdata-s21 and trainingdata-s95 folders)
+#### Different variations used while training using tesstrain.sh
 
-#### traineddata files for Sanskrit (devanagari)
-(tessdata folder has the traineddata files for s000, s21, s22, s30, s34 and s95)
-
-#### OCR evaluation with different sets of input
-(ocr-s21, ocr-s22, ocr-s30, ocr-s34, ocr-s95 folders have the accuracy results and reports)
-
-### Different variations used while training using tesstrain.sh
-
-* Remove fonts with incorrect rendering for Sanskrit eg. Sarai, Eczar, Rhodium Libre
+* Used a number of Devanagari fonts including many from the Google fonts project
+* Removed fonts with incorrect rendering for Sanskrit eg. Sarai, Eczar, Rhodium Libre
 * Removed fancy and old style fonts eg. Aparajita, Santipur OT etc.
 * Remove Italic versions of fonts (Utsaah and Kokila)
 * Used -1, 0, 1 exposure levels - gives thick, normal and thin variants of font
@@ -36,5 +28,15 @@ Mutiple versions using different fonts, training texts, unicharambigs,exposure l
 * Added more samples of characters ending in viraam 
 * Added list of sanskrit ligatures (TITUS) to training text
 * Add optional unicharambigs substitutions (one way only) - ma for bha, gha for dha etc
+
+#### Sample Box/Tiff pairs for Sanskrit (Devanagri) along with other required input files
+(trainingdata-s21 and trainingdata-s95 folders)
+
+#### traineddata files for Sanskrit (devanagari)
+(generated traineddata files for s000, s21, s22, s30, s34 and s95 are in tessdata folder)
+
+#### OCR evaluation with different sets of input
+(ocr-s21, ocr-s22, ocr-s30, ocr-s34, ocr-s95 folders have the accuracy results and reports)
+
 
 
