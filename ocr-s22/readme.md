@@ -1,51 +1,9 @@
 OCRed Using s22 Sanskrit traineddata 
 ===
 created using tesstrain.sh without shape-clustering
-
 with current 3.05-dev source
 
-```
-Following Devanagari Fonts were included in training
-
-DEVANAGARI_FONTS=( \
-    "AA_NAGARI_SHREE_L3" \
-    "Aksharyogini2" \
-    "Annapurna SIL" \
-    "Asar" \
-    "CDAC-GISTSurekh" \
-    "CDAC-GISTYogesh" \
-    "Chandas" \
-    "Eczar" \
-    "Ek Mukta" \
-    "FreeSerif" \
-    "Glegoo" \
-    "Kalimati" \
-    "Khula" \
-    "Kokila Italic" \
-    "Kokila" \
-    "Lohit Devanagari" \
-    "Madan2" \
-    "Mangal" \
-    "Martel" \
-    "Nirmala UI" \
-    "Noto Sans Devanagari" \
-    "SHREE-DV0726-OT" \
-    "Sahitya" \
-    "Samanata" \
-    "Sanskrit 2003," \
-    "Sanskrit Text" \
-    "Sarai" \
-    "Siddhanta" \
-    "Sumana" \
-    "Utsaah Italic" \
-    "Utsaah" \
-    "Uttara" \
-    "Vesper Libre" \
-    "gargi Medium" \
-    )
-  ```  
-
-Shreelipi accuracy is higher for s21
+Shreelipi font accuracy is higher for s21
 
 s22 with 600x600 tifs
 
