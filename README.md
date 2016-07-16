@@ -20,7 +20,6 @@ Mutiple versions of traineddata were created using different fonts, training tex
 
 #### Different variations used while training using tesstrain.sh
 
-* Used a number of Devanagari fonts including many from the Google fonts project
 * Removed fonts with incorrect rendering for Sanskrit eg. Sarai, Eczar, Rhodium Libre
 * Removed fancy and old style fonts eg. Aparajita, Santipur OT etc.
 * Remove Italic versions of fonts (Utsaah and Kokila)
@@ -40,5 +39,47 @@ Mutiple versions of traineddata were created using different fonts, training tex
 #### OCR evaluation with different sets of input
 (ocr-s21, ocr-s22, ocr-s30, ocr-s34, ocr-s95 folders have the accuracy results and reports)
 
+#### Fonts used
 
+* Used a number of Devanagari fonts including many from the Google fonts project
 
+* List of some Devanagari Fonts that were included in training
+
+```
+DEVANAGARI_FONTS=( \
+    "AA_NAGARI_SHREE_L3" \
+    "Aksharyogini2" \
+    "Annapurna SIL" \
+    "Asar" \
+    "CDAC-GISTSurekh" \
+    "CDAC-GISTYogesh" \
+    "Chandas" \
+    "Eczar" \
+    "Ek Mukta" \
+    "FreeSerif" \
+    "Glegoo" \
+    "Kalimati" \
+    "Khula" \
+    "Kokila Italic" \
+    "Kokila" \
+    "Lohit Devanagari" \
+    "Madan2" \
+    "Mangal" \
+    "Martel" \
+    "Nirmala UI" \
+    "Noto Sans Devanagari" \
+    "SHREE-DV0726-OT" \
+    "Sahitya" \
+    "Samanata" \
+    "Sanskrit 2003," \
+    "Sanskrit Text" \
+    "Sarai" \
+    "Siddhanta" \
+    "Sumana" \
+    "Utsaah Italic" \
+    "Utsaah" \
+    "Uttara" \
+    "Vesper Libre" \
+    "gargi Medium" \
+    )
+```
